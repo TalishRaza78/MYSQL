@@ -9,7 +9,7 @@
    
 
 2. UNIQUE
-
+   
    CREATE TABLE Users (
        Email VARCHAR(255) UNIQUE
    );
@@ -21,24 +21,26 @@
        StudentID INT PRIMARY KEY,
        Name VARCHAR(100)
    );
+   
 
 4. FOREIGN KEY
-
+   
    CREATE TABLE Orders (
        OrderID INT PRIMARY KEY,
        CustomerID INT,
        FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
    );
+   
 
 5. CHECK
-   
+
    CREATE TABLE Products (
        Price DECIMAL CHECK (Price > 0)
    );
 
-6. DEFAULT
 
+6. DEFAULT
+   
    CREATE TABLE Employees (
        Status VARCHAR(20) DEFAULT 'Active'
    );
-   
