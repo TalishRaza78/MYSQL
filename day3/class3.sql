@@ -1,8 +1,8 @@
- Common Types of Constraints in SQL:
+ Common Types of Constraints in SQL
 
 1. NOT NULL
    
-   CREATE TABLE Employees (
+   CREATE TABLE worker(
        ID INT NOT NULL,
        Name VARCHAR(100) NOT NULL
    );
