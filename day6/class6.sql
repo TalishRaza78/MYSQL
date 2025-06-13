@@ -1,0 +1,12 @@
+-- HAVING CLAUSE (IT APPLY CONDITION ON GROUP)
+--QUESTION : COUNT NO. OF STUDENT IN EACH CITY WHERE MAX MARKS CROSS 90
+
+SELECT city , COUNT(name) FROM student GROUP BY city HAVING MAX(marks) > 90 ;
+
+--GENERAL ORDER 
+SELECT column(s)
+FROM table_name 
+WHERE condition 
+GROUP BY column(s)
+HAVING condition 
+ORDER BY column(s) ASC ;
