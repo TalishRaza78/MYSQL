@@ -130,3 +130,18 @@ GROUP BY department
 HAVING COUNT(*) > 5
 ORDER BY employee_count DESC
 LIMIT 10;
+```
+📌 Example: SQL UPDATE Query
+```sql
+
+UPDATE employees
+SET salary = salary * 1.1
+WHERE department = 'Sales';
+This SQL query increases the salary of all employees in the "Sales" department by 10%.
+```
+✅ Markdown Tips
+Use triple backticks (```) with sql for syntax highlighting.
+
+Add a brief explanation so readers understand what the query does.
+
+Keep queries concise and properly indented for readability.
