@@ -59,4 +59,4 @@ SELECT * FROM student WHERE city NOT IN ('dlehi','mumbai');
 SELECT * FROM student LIMIT 2; --(ITS MEAN IT SHOW ONLY 2 ROW FROM THE STUDENT TABLE )
 
 --3. ORDER BY CLUASE (ASC or DESC)
-SELECT * FROM student ORDER BY name ASC;
+SELECT * FROM student ORDER BY name ASC; 
