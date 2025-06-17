@@ -119,3 +119,6 @@ WHERE customers.CustomerID IS NULL;
 | OrderID | CustomerID | Product |
 | ------- | ---------- | ------- |
 | 103     | 4          | Tablet  |
+
+-- these are the join used in sql 
+
