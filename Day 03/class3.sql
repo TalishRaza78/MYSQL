@@ -44,3 +44,5 @@
    CREATE TABLE Employees (
        Status VARCHAR(20) DEFAULT 'Active'
    );
+
+-- these are the constraint in sql 
