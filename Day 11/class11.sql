@@ -86,3 +86,5 @@ WHERE salary = (SELECT max(salary)) FROM employee);
 | Bob   | 7000   |
 | Carol | 7000   |
 
+--this all i learn in sql 
+
