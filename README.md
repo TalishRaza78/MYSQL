@@ -42,7 +42,7 @@ This query **retrieves the names and roll numbers** of students in the Computer 
 
 ---
 
-### 🔧 What Can You Do With SQL?
+### 🔧 What Can You Do With SQL
 
 * Create databases and tables
 * Insert, update, or delete data
