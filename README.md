@@ -1,6 +1,6 @@
 # ✅ SQL :
 
-### 🧠 Full Definition of SQL
+### 🧠 Full Definition of SQL :
 
 **SQL** stands for **Structured Query Language**. It is a **standard programming language** specifically designed for **managing and manipulating relational databases**.
 
