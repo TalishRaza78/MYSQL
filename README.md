@@ -1,4 +1,4 @@
-# ✅ SQL 
+# ✅ SQL :
 
 ### 🧠 Full Definition of SQL
 
